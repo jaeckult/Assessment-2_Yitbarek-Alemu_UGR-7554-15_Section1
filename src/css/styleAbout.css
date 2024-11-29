@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+header{
+    color: white;
+    background: linear-gradient(to bottom, rgb(22, 64, 148), transparent);
+}
+.header-container{
+    margin-left:  17vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+.slogan{
+    margin-left: 130px;
+    font-style: italic;
+    color: black;
+    font-size: larger;
+}
+h1{
+    color: rgb(255, 208, 0);
+}
+h1>span{
+    color: rgb(2, 2, 107);
+}
+.title{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+button{
+    margin: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    opacity: 0.8;
+}
+button:hover{
+    background-color: #2f19aa;
+    box-shadow: 10px 5px 5px rgb(16, 117, 199);
+    padding: 15px 20px;
+}
+main{
+    background-color: #09101b;    
+}
+.buttons button a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    background: linear-gradient(to left, rgb(75, 103, 161), transparent);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: auto;
+    column-gap: 30px;
+    color: white;
+    justify-content: center;
+    margin-left: 17vw;
+}
+aside{
+    margin: 7px 7px;
+    grid-area: 1/3/3/4;
+}
+article{
+    padding: 30px 20px;
+    font-style: italic;
+}
+article>p{
+    padding: 10px 5px;
+    line-height: 25px;
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+h2, h3{
+    margin: 5px 5px;
+    color: yellow;
+}
+footer{
+    background-color: #09101b;
+}
+.footer-container{
+    color: white;
+    margin: 1px 100px; 
+    gap: 1px 30px ;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+}
+.img-gallery img{
+    float: left;
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+#about-img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.about{
+    text-align: justify;
+}
+.img-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px 2px;
+    
+}
+.most-bottom{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-top: 1px solid white;
+    padding: 20px;
+}
+.footer-nav nav a{
+    margin-right: 10px;
+    text-decoration: underline;
+    color: blue;
+}
